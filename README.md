@@ -2,7 +2,7 @@
 
 ![nvim ui example](./screenshots/lazyvim-based-config-sample.webp)
 
-A Neovim config for web development (PHP, JS) based on LazyVim and includes a bunch of tweaks for improving developer experience as I see it.
+A Neovim config for web development (PHP, JS) based on [LazyVim](https://github.com/LazyVim/LazyVim) and includes a bunch of tweaks for improving developer experience as I see it.
 
 
 ## Requirements
