@@ -29,7 +29,7 @@ return {
                     command = 'node',
                     type = 'executable',
                     -- Use your path for phpDebug
-                    args = { '/home/dajnz/Applications/vscode-php-debug/out/phpDebug.js' }
+                    args = { '/home/dajnz/apps/vscode-php-debug/out/phpDebug.js' }
                 }
             }
 
