@@ -26,14 +26,14 @@ return {
     end,
 
     opts = {
-        -- Removed letters '~' and '`' because it incorrectly maps them to 'Ё' and 'ё',
-        -- but on my keyboard it should be mapped to '|' and '\', and I need '\' for Flash hotkey
+        -- Removed letters '~' and '`' because it incorrectly maps them to 'Ё' and 'ё'
+        -- This is because I'm using Mac aluminum keyboard
         default_layout = [[ABCDEFGHIJKLMNOPQRSTUVWXYZ<>:"{}abcdefghijklmnopqrstuvwxyz,.;[]']],
 
         layouts = {
             ru = {
-                -- Removed letters 'Ё' and 'ё' because it incorrectly maps them to '~' and '`',
-                -- but on my keyboard it should be mapped to '|' and '\', and I need '\' for Flash hotkey
+                -- Removed letters 'Ё' and 'ё' because it incorrectly maps them to '~' and '`'
+                -- This is because I'm using Mac aluminum keyboard
                 layout = 'ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯБЮЖЭХЪфисвуапршолдьтщзйкыегмцчнябюжхъэ'
             }
         }
