@@ -7,6 +7,12 @@ local o = vim.opt
 local ol = vim.opt_local
 
 ---------
+-- Cursor
+---------
+
+o.guicursor = "n-v-c-sm-i-ci-ve:block,r-cr-o:hor20,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor"
+
+---------
 -- Indentation
 ---------
 
@@ -21,12 +27,12 @@ o.shiftwidth = 4
 
 -- Wrapping for long lines by default
 o.wrap = true
--- Nice soft-wrapping for long lines with respect of starting indentation 
+-- Nice soft-wrapping for long lines with respect of starting indentation
 o.breakindent = true
 -- Wrapping should be done by whole words
 o.linebreak = true
--- Shows some indication for soft-wrapped lines 
-o.showbreak = '⪫⪫⪫ '
+-- Shows some indication for soft-wrapped lines
+o.showbreak = "⪫⪫⪫ "
 
 ---------
 -- Whitespace characters showing
@@ -35,15 +41,15 @@ o.showbreak = '⪫⪫⪫ '
 -- What characters used for specific types of whitespaces indication
 o.listchars = {
     -- Leading spaces, showing when a line has any
-    lead = '·',
+    lead = "·",
     -- Trailing spaces, showing when a line has any
-    trail = '·',
+    trail = "·",
     -- Showing two or more consecutive space characters within text
-    multispace = '··',
+    multispace = "··",
     -- Non-breakable spaces
-    nbsp = '␣',
+    nbsp = "␣",
     -- Tabs
-    tab = '  →',
+    tab = "  →",
 }
 -- Enables whitespaces showing mode
 o.list = true
@@ -54,7 +60,7 @@ o.list = true
 
 -- Built-in spell checking for EN and RU
 o.spell = true
-o.spelllang = { 'ru_yo', 'en_us' }
+o.spelllang = { "ru_yo", "en_us" }
 -- Disable spellchecking rule for capital letter at the beginning of a sentence
-o.spellcapcheck = ''
-ol.spellcapcheck = ''
+o.spellcapcheck = ""
+ol.spellcapcheck = ""
