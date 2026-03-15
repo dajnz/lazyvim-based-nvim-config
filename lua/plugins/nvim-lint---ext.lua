@@ -7,6 +7,7 @@ return {
                 fish = { "fish" },
                 make = { "checkmake" },
                 dockerfile = { "hadolint" },
+                yaml = { "yamllint" },
 
                 -- Use the "*" filetype to run linters on all filetypes.
                 -- ['*'] = { 'global linter' },
