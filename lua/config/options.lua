@@ -16,6 +16,9 @@ o.guicursor = "n-v-c-sm-i-ci-ve:block,r-cr-o:hor20,a:blinkwait700-blinkoff400-bl
 -- Indentation
 ---------
 
+-- Always use spaces rather than tabs by default
+-- This can be overridden inside .editorconfig for separate project or inside after/ftplugin/*.lua
+o.expandtab = true
 -- Number of spaces that a <Tab> in the file counts for.
 o.tabstop = 4
 -- Number of spaces to use for each step of (auto)indent.
